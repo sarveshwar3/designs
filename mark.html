@@ -1,0 +1,107 @@
+<html>
+<head> <title> University marks </title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/css/mdb.min.css" rel="stylesheet">
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/js/mdb.min.js"></script>
+ </head>
+<body>
+ <h1> University marks </h1>
+ <form action = "studentmark.php" method = "post">
+  <input type="text" name="rollnumber" placeholder="Enter your roll number"/>
+ <input type="submit" name="submit" />
+  </form>
+   <h1 align="center">INSERT</h1>
+ <div class="container">
+ <center>
+ <form action="studentmark.php" method="post">
+<div class="form-row mb-4">
+  <div class="col">
+   <div class="md-form form-group mt-5">
+  <input type="text" name="roll" class="form-control" placeholder="Enter rollnumber"/>
+  </div>
+  <div class="md-form form-group mt-5"> 
+ <input type="text" name="register"  class="form-control" placeholder = "Enter register number"/>
+ </div> 
+   <div class="md-form form-group mt-5">
+  <input type="text" name="batch" class="form-control" placeholder="Enter batch number"/>
+  </div>
+  </div>
+  <div class="col">
+   <div class="md-form form-group mt-5">
+  <input type="text" name="sub1" class="form-control" placeholder="Enter marks"/>
+  </div>
+  <div class="md-form form-group mt-5">
+<input type="text" name="sub2" class="form-control" placeholder="Enter marks"/>
+ </div>
+  <div class="md-form form-group mt-5"> 
+ <input type="text" name="sub3" class="form-control" placeholder="Enter marks"/>
+ </div>  
+  <div class="md-form form-group mt-5">
+ <input type="text" name="sub4" class="form-control" placeholder="Enter marks"/>
+ </div>
+   <div class="md-form form-group mt-5"> 
+  <input type="text" name="sub5" class="form-control" placeholder="Enter marks"/>
+  </div>
+  <div class="md-form form-group mt-5">
+  <input type="text" name="sub6" class="form-control" placeholder="Enter marks"/>
+   </div>
+ </div>
+  <input type="submit" class="btn btn-primary" name="insert"/>
+ </form>
+  </center>
+ </div>
+</div>
+  <h1 align="center">UPDATE </h1>
+<div class="container">
+ <center>
+ <form action="studentmark.php" method="post">
+<div class="form-row mb-4">
+  <div class="col">
+   <div class="md-form form-group mt-5">
+  <input type="text" name="roll" class="form-control" placeholder="Enter rollnumber"/>
+  </div>
+  <div class="md-form form-group mt-5"> 
+ <input type="text" name="register"  class="form-control" placeholder = "Enter register number"/>
+ </div> 
+   <div class="md-form form-group mt-5">
+  <input type="text" name="batch" class="form-control" placeholder="Enter batch number"/>
+  </div>
+  </div>
+  <div class="col">
+   <div class="md-form form-group mt-5">
+  <input type="text" name="sub1" class="form-control" placeholder="Enter marks"/>
+  </div>
+  <div class="md-form form-group mt-5">
+<input type="text" name="sub2" class="form-control" placeholder="Enter marks"/>
+ </div>
+  <div class="md-form form-group mt-5"> 
+ <input type="text" name="sub3" class="form-control" placeholder="Enter marks"/>
+ </div>  
+  <div class="md-form form-group mt-5">
+ <input type="text" name="sub4" class="form-control" placeholder="Enter marks"/>
+ </div>
+   <div class="md-form form-group mt-5"> 
+  <input type="text" name="sub5" class="form-control" placeholder="Enter marks"/>
+  </div>
+  <div class="md-form form-group mt-5">
+  <input type="text" name="sub6" class="form-control" placeholder="Enter marks"/>
+   </div>
+ </div>
+  <input type="submit" class="btn btn-primary" name="update"/>
+ </form>
+  </center>
+ </div>
+</div>
+</body>
+</html>
