@@ -1,0 +1,7 @@
+CREATE TABLE `payroll`.`department` ( `dcode` VARCHAR(10) NOT NULL , `dname` VARCHAR(20) NOT NULL ) ENGINE = InnoDB;
+
+CREATE TABLE `payroll`.`employee` ( `ecode` VARCHAR(10) NOT NULL , `ename` VARCHAR(20) NOT NULL , `dname` VARCHAR(20) NOT NULL , `salaryperday` INT(20) NOT NULL ) ENGINE = InnoDB;
+
+CREATE TABLE `payroll`.`leaveregister` ( `ecode` VARCHAR(10) NOT NULL , `ename` INT(20) NOT NULL , `date` DATE NOT NULL , `leavedays` INT(20) NOT NULL ) ENGINE = InnoDB;
+
+CREATE TABLE `payroll`.`payslip` ( `ecode` VARCHAR(10) NOT NULL , `ename` VARCHAR(20) NOT NULL , `salaryperday` INT(20) NOT NULL , `pay` INT(20) NOT NULL , `travelamount` INT(20) NOT NULL ) ENGINE = InnoDB;
